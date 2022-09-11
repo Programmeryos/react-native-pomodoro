@@ -67,7 +67,7 @@ function SignUpForm({navigation}) {
                             <Button 
                                 title='Sin Up' 
                                 color='#69C262'
-                                onPress={() => navigation.navigate('MainPage', props.values)} 
+                                onPress={() => navigation.navigate('Inbox', props.values)} 
                                 disabled={props.isSubmitting || (
                                     Object.keys(props.errors).length > 0
                                 ) || !(

@@ -23,7 +23,7 @@ function Navigation() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Sign Up" component={SignUp} />
-        <Stack.Screen name="MainPage" component={MainPage} />
+        <Stack.Screen name="Inbox" component={MainPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

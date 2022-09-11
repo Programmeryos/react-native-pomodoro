@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 
-import SignUp from './components/pages/SignUp/SignUp';
 import Navigation from './components/Navigation/Navigation';
 
 const App = () => {
